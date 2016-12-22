@@ -1,0 +1,201 @@
+body {
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url(../images/bg_body.jpg);
+}
+
+
+.wrapper {
+	width: 1200px;
+}
+
+
+.header {
+	width: 1200px;
+	height: 220px;
+	position: relative;	
+}
+
+
+.lang-list {
+	float: left;
+	position: absolute;
+	left: 100px;
+	top: 40px;
+}
+
+
+.lang-item {
+	float: left;
+	font: 10px verdana,sans-serif;
+	color: #E8D1A4;
+	padding: 1px 5px 1px 1px   ;
+}
+
+
+.lang-item:nth-of-type(1n+2):before{
+        content: " | ";
+	color: #FFFFFF;
+}
+
+
+.lang-list a {
+	color: #FFFFFF;
+}
+
+
+.auth {
+	position: absolute;
+	right: 120px;
+	top: 40px;
+}
+
+.auth-link a {
+	font: 11px verdana,sans-serif;
+	color: #FFFFFF;
+}
+
+.auth-link:nth-of-type(1n+2):before{
+        content: " | ";
+        color: #ffffff;
+}
+
+
+.signin a {
+	color: #E8D1A4;
+}
+
+
+.logo {
+	position: absolute;
+	left: 130px;
+	top: 65px;
+}
+
+
+.mainmenu {
+	width: 702px;
+	height: 39px;
+	float: left;
+	background-color: #F7F7F6;
+	position: absolute;
+	top: 120px;
+	left: 395px;
+	border: 2px solid #DAD7D5;
+	border-radius: 5px;
+}
+
+
+.mainmenu .menu-item {
+	float: left;
+	padding: 12px 28px;
+	margin-right: 2px;
+}
+
+
+.mainmenu .menu-list a {
+	text-decoration: none;
+	font: 15px Georgia,serif;
+    color: #573223;
+    display: block;
+}
+
+.active {
+	background: url(../images/bg_menu-item-active.png);
+}
+
+.content {
+    width: 1200px;
+    height: 1055px;
+    
+}
+
+
+.promo {
+    width: 806px;
+    height: 150px;
+    position: relative;
+    margin: 3px 100px 0 100px;
+     background: url(../images/bg_about.png) 5% no-repeat, url(../images/bg_promo.png) repeat;
+    border-radius: 10px;
+}
+
+
+.promo h1 {
+    font: 22px Georgia,serif;
+    color: #ead4aa;
+    padding: 23px 0 22px 0px;
+}
+
+
+.promo {
+	font: 16px Georgia,serif;
+	font-style: italic;
+	color: #F9DA5A;
+	line-height: 22px;
+	padding: 0 45px 30px 145px;
+}
+
+
+.article {
+	width: 1000px;
+	margin: 0 100px 0 120px;
+	position: relative;
+}
+
+
+.article img {
+    width: 90px;
+    height: 90px;
+	float: left; 
+	position: relative;
+}
+
+
+article.article h2 {
+	font: 19px Georgia,serif;
+	color: #FFF68D;
+	padding: 44px 0 18px 125px;
+}
+
+
+article.article p {
+	font: 13px verdana,sans-serif;
+	color: #D7CFC8;
+	padding: 0 65px 0 125px;
+}
+
+.footer {
+    color: #f0f0f0;
+	position: relative;
+	width: 1200px;
+	height: 136px;
+	border-top: 1px solid #C1A44D;
+    
+}
+
+    
+.footer div {
+	font: 11px verdana,sans-serif;
+    color: #F9DA5A;
+    position: absolute;
+    left: 115px;
+    bottom: 23px;
+}
+
+
+.footermenu {
+	 width: 528px;
+    height: 15px;
+    position: absolute;
+    left: 560px;
+    bottom: 23px;
+}
+
+
+.footermenu a {
+	float: left;
+    font: 11px verdana,sans-serif;
+    color: #FFFFFF;
+    padding: 0 11px 0 0;
+}
