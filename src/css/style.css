@@ -145,8 +145,8 @@ body {
 
 
 .article img {
-    width: 90px;
-    height: 90px;
+    width: auto;
+    height: 70px;
 	float: left; 
 	position: relative;
 }
